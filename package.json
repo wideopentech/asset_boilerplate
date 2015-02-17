@@ -1,0 +1,32 @@
+{
+  "name": "AssetsBoilerplate",
+  "title": "Assets Boilerplate",
+  "description": "Assets Boilerplate using SCSS and GruntJS",
+  "version": "0.0.1",
+  "homepage": "https://github.com/wideopentech/asset_boilerplate",
+  "author": "Wide Open Tech (http://wideopentech.com)",
+  "maintainers": [
+    "Adam Smith <adam@wideopentech.com> (http://acodesmith.com)"
+  ],
+  "scripts": {
+    "test": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wideopentech/asset_boilerplate"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-compass": "^1.0.1",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-jshint": "~0.6.3",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-uglify": "^0.4.0",
+    "grunt-contrib-watch": "^0.5.3",
+    "grunt-ftpush": "^0.3.3",
+    "package": "^1.0.1"
+  },
+  "engine": "node 0.4.1",
+  "main": "Gruntfile.js",
+  "license": "ls"
+}
