@@ -44,7 +44,7 @@ module.exports = function (grunt) {
             //Expanded Files for DEV
             dev: {
                 options: {
-                    sassDir: ['sass'],
+                    sassDir: ['scss'],
                     cssDir: ['css'],
                     imagesDir: ['img'],
                     javascriptsDir: ['js'],
@@ -57,7 +57,7 @@ module.exports = function (grunt) {
             //Compress Files for PROD
             prod: {
                 options: {
-                    sassDir: ['sass'],
+                    sassDir: ['scss'],
                     cssDir: ['css'],
                     imagesDir: ['img'],
                     javascriptsDir: ['js'],
@@ -71,7 +71,7 @@ module.exports = function (grunt) {
         // watch - tasks triggered with [grunt watch] is initiated in the cli
         watch: {
             less: {
-                files: ['sass/*.sass'],
+                files: ['scss/*.scss'],
                 tasks: ['compass']
             }
         }
