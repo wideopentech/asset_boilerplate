@@ -1,0 +1,1 @@
+Empty folders cannot be added to a git repo. Adding this file to help maintain proper folder structure.
