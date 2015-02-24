@@ -71,7 +71,7 @@ module.exports = function (grunt) {
         // watch - tasks triggered with [grunt watch] is initiated in the cli
         watch: {
             less: {
-                files: ['scss/*.scss'],
+                files: ['scss/**/*.scss'],
                 tasks: ['compass']
             }
         }
